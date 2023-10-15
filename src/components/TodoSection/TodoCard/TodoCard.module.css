@@ -1,0 +1,85 @@
+.todoItem {
+  padding: 0.5em;
+  border: 0.1em solid #eff1f5;
+  border-radius: 0.5em;
+  background-color: white;
+}
+.todoItemDetails {
+  display: flex;
+  padding: 1em;
+  justify-content: space-between;
+}
+.todoPhoto {
+  height: 4.5em;
+  width: 4.5em;
+  padding: 0.2em 0;
+}
+.todoPhoto img {
+  height: 100%;
+  width: 100%;
+}
+.todoUserInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.todoUserInfo > div:nth-child(1) {
+  font-weight: 700;
+  font-size: 0.9em;
+}
+.todoUserInfo > :nth-child(2) {
+  padding: 0.4em 0 1.5em 0;
+  font-size: 0.8em;
+}
+.todoUserInfo a {
+  font-size: 0.7em;
+  color: #568fff;
+  text-decoration: none;
+  font-weight: 640;
+}
+.todoDetailInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.todoDetailD {
+  display: flex;
+  justify-content: space-between;
+}
+.todoDetailT {
+  padding: 0em 1.5em 0.4em 0em;
+  width: 8em;
+  font-size: 0.8em;
+  display: flex;
+  color: #9e9e9e;
+}
+.todoDetailA {
+  font-size: 0.8em;
+  display: flex;
+}
+.todoStatus {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.todoStatus span:nth-child(1) {
+  font-size: 0.8em;
+  color: #969696;
+}
+.todoStatus .red {
+  font-size: 0.9em;
+  color: red;
+}
+.todoStatus .green {
+  font-size: 0.9em;
+  color: green;
+}
+.todoStart {
+  background-color: #04095a;
+  color: white;
+  width: 9em;
+  padding: 0.3em;
+  font-size: 0.7em;
+}
